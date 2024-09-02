@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Get started by afsdfsfgvrgbgbediting&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
@@ -47,9 +47,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Dosdvsvdsdvcs <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>Find in-depth infosdvsdvsvdsdvrmation about Next.js features and API.</p>
         </a>
 
         <a
@@ -59,9 +59,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            Learn How tvsdvsfvsfvsdvo Spell<span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>Learn abosvdsdvsvsut Next.js in an interactive course with&nbsp;quizzes!</p>
         </a>
 
         <a
