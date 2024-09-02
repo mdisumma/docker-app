@@ -1,9 +1,8 @@
  
-FROM node:20-alpine
-
+FROM node:18
 WORKDIR /app
-COPY package*.json ./
-RUN yarn install --production
+COPY package.json package-lock.json ./
+RUN npm install
 COPY . .
-CMD ["node", "./src/index.js"]
+CMD ["npm run dev"]
 EXPOSE 3000
