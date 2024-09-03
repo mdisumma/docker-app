@@ -42,3 +42,7 @@ If all of that has worked then try to "docker run" your container. You might nee
 goto https://localhost/3000
 
 ## Objective 2
+
+## Working with Husky and Linting
+ - Install Husky
+ - Run Husky
