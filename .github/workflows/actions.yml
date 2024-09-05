@@ -6,12 +6,15 @@ on:
       - main
 
 jobs:
-say-hello:
-runs-on: ubuntu-latest
+  say-hello:
+    runs-on: ubuntu-latest
 
-steps:
-  - name: Checkout-code
-    uses: action/checkout@v2
+    steps:
+      - name: Checkout-code
+        uses: actions/checkout@v2
 
-  - name: Gretings
-    run: echo "Hello Marco"
+      - name: Docker-create
+        run: docker build -t "docker-image-app"
+
+      - name: Docker-container-with-lint
+        run: docker run docker-image-app npm run lint
