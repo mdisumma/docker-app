@@ -8,8 +8,8 @@ on:
 jobs:
   say-hello:
     runs-on: ubuntu-latest
+    steps:
 
-  steps:
     - name: Checkout code
       uses: action/checkout@v2
 
