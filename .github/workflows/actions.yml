@@ -6,8 +6,10 @@ on:
       - main
 
 jobs:
+
   say-hello:
     runs-on: ubuntu-latest
+<
 
     steps:
       - name: Checkout-code
@@ -15,3 +17,4 @@ jobs:
 
       - name: Say hello world
         run: echo "hello world"
+
