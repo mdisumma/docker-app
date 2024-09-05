@@ -6,6 +6,7 @@ on:
       - main
 
 jobs:
+
   say-hello:
     runs-on: ubuntu-latest
 
@@ -18,3 +19,4 @@ jobs:
 
       - name: Docker-container-with-lint
         run: docker run docker-image-app npm run lint
+
