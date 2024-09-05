@@ -9,10 +9,12 @@ jobs:
 
   say-hello:
     runs-on: ubuntu-latest
+<
+
     steps:
+      - name: Checkout-code
+        uses: actions/checkout@v2
 
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Say hello world
+        run: echo "hello world"
 
-  - name: Gretings
-    run: echo "Hello Marco"
