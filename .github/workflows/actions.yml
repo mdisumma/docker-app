@@ -19,6 +19,9 @@ jobs:
 
       - name: Docker-container-with-lint
 
+
+
         run: docker run --rm docker-image-app npm run lint
+
 
 
