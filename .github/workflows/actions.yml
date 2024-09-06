@@ -9,12 +9,14 @@ jobs:
 
   say-hello:
     runs-on: ubuntu-latest
-<
 
     steps:
       - name: Checkout-code
         uses: actions/checkout@v2
 
-      - name: Say hello world
-        run: echo "hello world"
+      - name: Docker-create
+        run: docker build -t "docker-image-app" -f Dockerfile.dev .
+
+      - name: Docker-container-with-lint
+        run: docker run docker-image-app npm run lint
 
