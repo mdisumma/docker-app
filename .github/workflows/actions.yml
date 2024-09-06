@@ -6,7 +6,6 @@ on:
       - main
 
 jobs:
-
   say-hello:
     runs-on: ubuntu-latest
 
@@ -20,4 +19,11 @@ jobs:
       - name: Docker-container-with-lint
         run: docker run --rm docker-image-app npm run lint
 
+<<<<<<< HEAD
      
+=======
+      # - name: Stop and remove the container
+      #   run: |
+      #     docker stop my-app-container
+      #     docker rm my-app-container
+>>>>>>> 4975f9f0a96ba8f21fc8213f05a535b16fef1d33
