@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
+          Get started -- by editing&nbsp;
           <code className={styles.code}>src/app/page.js</code>
         </p>
         <div>
@@ -16,7 +16,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             By{" "}
-            <img
+            <Image
               src="/vercel.svg"
               alt="Vercel Logo"
               className={styles.vercelLogo}
@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <div className={styles.center}>
-        <img
+        <Image
           className={styles.logo}
           src="/next.svg"
           alt="Next.js Logo"
