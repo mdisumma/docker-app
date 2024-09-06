@@ -18,8 +18,3 @@ jobs:
 
       - name: Docker-container-with-lint
         run: docker run docker-image-app npm run lint
-
-      # - name: Stop and remove the container
-      #   run: |
-      #     docker stop my-app-container
-      #     docker rm my-app-container
