@@ -13,8 +13,15 @@ jobs:
       - name: Checkout-code
         uses: actions/checkout@v2
 
-      - name: Docker-create
+      - name: Docker-building-image
+
         run: docker build -t "docker-image-app" -f Dockerfile.dev .
 
       - name: Docker-container-with-lint
-        run: docker run docker-image-app npm run lint
+
+
+
+        run: docker run --rm docker-image-app npm run lint
+
+
+
